@@ -18,7 +18,6 @@ export default class extends wepy.app {
     pages: [
       'pages/index',
       'pages/hot'
-      
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -30,11 +29,11 @@ export default class extends wepy.app {
       'list': [
         {
           'pagePath': 'pages/index',
-          'text': '首页1111'
+          'text': '首页'
         },
         {
           'pagePath': 'pages/hot',
-          'text': '最热主题1111'
+          'text': '最热主题'
         }
       ]
     }
